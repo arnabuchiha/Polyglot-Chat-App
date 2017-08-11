@@ -1,11 +1,9 @@
 package com.vitualsenseltd.arnab.chatterx;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -24,22 +22,16 @@ import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 import com.vitualsenseltd.arnab.chatterx.Translation.Data;
 import com.vitualsenseltd.arnab.chatterx.Translation.Translation;
 import com.vitualsenseltd.arnab.chatterx.Translation.authPOJO;
 import com.vitualsenseltd.arnab.chatterx.Translation.translate;
-import com.vitualsenseltd.arnab.chatterx.language_save.lan;
-import com.vitualsenseltd.arnab.chatterx.language_save.lang;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.ListIterator;
@@ -48,7 +40,6 @@ import java.util.Map;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.http.POST;
 
 import static com.vitualsenseltd.arnab.chatterx.language.key;
 
@@ -62,7 +53,8 @@ public class Chat extends AppCompatActivity {
     Map<String, String> map;
     Firebase reference1, reference2,reference3;
     language l;
-
+private FirebaseDatabase mFirebaseDatabase;
+    private DatabaseReference myRef;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,8 +70,8 @@ public class Chat extends AppCompatActivity {
 
         reference1 = new Firebase("https://chatterx-7db2d.firebaseio.com/messages/" + UserDetails.username + "_" + UserDetails.chatWith);
         reference2 = new Firebase("https://chatterx-7db2d.firebaseio.com/messages/" + UserDetails.chatWith + "_" + UserDetails.username);
-        //reference3= new Firebase("https://chatterx-7db2d.firebaseio.com/users/"+UserDetails.username);
-        final lan ln=lan.retrofit.create(lan.class);
+        reference3= new Firebase("https://chatterx-7db2d.firebaseio.com/users/"+UserDetails.username);
+        /*final lan ln=lan.retrofit.create(lan.class);
         Call<lang> readlang=ln.readlang("language");
         readlang.enqueue(new Callback<lang>() {
             @Override
@@ -91,7 +83,43 @@ public class Chat extends AppCompatActivity {
             public void onFailure(Call<lang> call, Throwable t) {
 
             }
-        });
+        });*/
+
+        {
+            String url = "https://chatterx-7db2d.firebaseio.com/users.json";
+            final ProgressDialog pd = new ProgressDialog(Chat.this);
+            pd.setMessage("Loading...");
+            pd.show();
+
+            StringRequest request = new StringRequest(Request.Method.GET, url, new com.android.volley.Response.Listener<String>() {
+                @Override
+                public void onResponse(String s) {
+
+                        try {
+                            JSONObject obj = new JSONObject(s);
+
+                            key=obj.getJSONObject(UserDetails.username).getString("language");
+
+                            }
+                         catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+
+                    pd.dismiss();
+                }
+            }, new com.android.volley.Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError volleyError) {
+                    System.out.println("" + volleyError);
+                    pd.dismiss();
+                }
+            });
+
+            RequestQueue rQueue = Volley.newRequestQueue(Chat.this);
+            rQueue.add(request);
+        }
+
 
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -220,6 +248,7 @@ public class Chat extends AppCompatActivity {
             }
         });
     }
+
 
     public void addMessageBox(String message, int type){
         TextView textView = new TextView(Chat.this);

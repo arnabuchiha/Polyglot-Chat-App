@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 12 03:44:24 IST 2017
+#Sat Aug 12 05:21:36 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_list_menu_item_layout.xml
 14.set=ANDROID_RESOURCE
