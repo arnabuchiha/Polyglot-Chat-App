@@ -30,7 +30,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.vitualsenseltd.arnab.chatterx.MainActivity"
+            android:name="com.vitualsenseltd.arnab.chatterx.Login"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
