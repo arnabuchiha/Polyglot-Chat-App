@@ -12,6 +12,10 @@
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corner1.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\drawable\\rounded_corner1.xml"
+    },
+    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corner2.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\drawable\\rounded_corner2.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",

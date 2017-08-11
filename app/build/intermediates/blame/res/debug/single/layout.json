@@ -44,8 +44,16 @@
         "source": "C:\\Users\\arnab\\.android\\build-cache\\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_area.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\message_area.xml"
+    },
+    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -108,6 +116,10 @@
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
@@ -130,6 +142,10 @@
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_users.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\activity_users.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -206,6 +222,10 @@
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_language.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\activity_language.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",

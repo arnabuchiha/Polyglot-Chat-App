@@ -8,6 +8,9 @@ public class lang {
     @SerializedName("language")
     @Expose
     private String language;
+    @SerializedName("password")
+    @Expose
+    private String password;
 
     public String getLanguage() {
         return language;
@@ -15,6 +18,14 @@ public class lang {
 
     public void setLanguage(String language) {
         this.language = language;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
 }

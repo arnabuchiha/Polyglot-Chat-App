@@ -82,7 +82,7 @@ public class Users extends AppCompatActivity {
             while(i.hasNext()){
                 key = i.next().toString();
 
-                if(!key.equals(UserDetails.username)) {
+                if((!key.equals(UserDetails.username))&&(!key.equals("language"))) {
                     al.add(key);
                 }
 

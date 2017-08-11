@@ -19,7 +19,7 @@ public interface lan {
     Call<lang> readlang(@Query("print")String lang);
 
     Retrofit retrofit = new Retrofit.Builder()
-            .baseUrl("https://polyglot-dc4c3.firebaseio.com/users/"+ UserDetails.username+"/")
+            .baseUrl("https://chatterx-7db2d.firebaseio.com/users/"+ UserDetails.username+"/")
             .addConverterFactory(GsonConverterFactory.create())
             .build();
 
