@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arnab\.android\build-cache\2e3910c8498b74a50dc7b5c6ac256793c08e99ed\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\7b3eae801c55a1bb8e8608f93d0898664487f611\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\10f577e8673c131d47198e79130c535c0a1381e8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\3d0d2113dff08ff5abff5b687629119cb472fb39\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\03982c0ab96587c07add05e47d2ac488087eb6c1\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\b95ca1e21acca84774f0ccf50f5915d511770ef9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\ad2788e7a2574a6b33af91f125c360da60fa3a9b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\254b966c2ac38fbda7504bbe39492537a43a301e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\920d8fd1a7e8573f735ba383f90b128e77e98658\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\fbd9d14ecc8293770addb2017540330d82724269\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\3cffeb20f9d03f7f50ae056bb2165f207997b94d\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.vitualsenseltd.arnab.chatterx.MainActivity
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arnab\.android\build-cache\2e3910c8498b74a50dc7b5c6ac256793c08e99ed\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\7b3eae801c55a1bb8e8608f93d0898664487f611\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\10f577e8673c131d47198e79130c535c0a1381e8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\3d0d2113dff08ff5abff5b687629119cb472fb39\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\33e7a3bb2332d3a51b8dfc02099699d30688866c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\03982c0ab96587c07add05e47d2ac488087eb6c1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\b95ca1e21acca84774f0ccf50f5915d511770ef9\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\ad2788e7a2574a6b33af91f125c360da60fa3a9b\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\254b966c2ac38fbda7504bbe39492537a43a301e\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\920d8fd1a7e8573f735ba383f90b128e77e98658\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\fbd9d14ecc8293770addb2017540330d82724269\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\3cffeb20f9d03f7f50ae056bb2165f207997b94d\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\7b3eae801c55a1bb8e8608f93d0898664487f611\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\10f577e8673c131d47198e79130c535c0a1381e8\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\3d0d2113dff08ff5abff5b687629119cb472fb39\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\33e7a3bb2332d3a51b8dfc02099699d30688866c\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\03982c0ab96587c07add05e47d2ac488087eb6c1\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\b95ca1e21acca84774f0ccf50f5915d511770ef9\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\ad2788e7a2574a6b33af91f125c360da60fa3a9b\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\254b966c2ac38fbda7504bbe39492537a43a301e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\920d8fd1a7e8573f735ba383f90b128e77e98658\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\fbd9d14ecc8293770addb2017540330d82724269\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\3cffeb20f9d03f7f50ae056bb2165f207997b94d\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:26:9-47
