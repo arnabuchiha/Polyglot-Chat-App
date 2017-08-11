@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "573233199044",
+    "firebase_url": "https://chatterx-7db2d.firebaseio.com",
+    "project_id": "chatterx-7db2d",
+    "storage_bucket": "chatterx-7db2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573233199044:android:6b1b188fcf80f454",
+        "android_client_info": {
+          "package_name": "com.vitualsenseltd.arnab.chatterx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573233199044-lgt1ck2l3fitn6tkqktpcfn0m9307oaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitualsenseltd.arnab.chatterx",
+            "certificate_hash": "bdc808740d873298ddb8ab2456d9e59865d6abbf"
+          }
+        },
+        {
+          "client_id": "573233199044-i4qendj6ukn7v1m1hj2afsqim001t6h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaYbNDiJIjTmlZSQeAIgqDIlQcFNc8038"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573233199044-i4qendj6ukn7v1m1hj2afsqim001t6h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

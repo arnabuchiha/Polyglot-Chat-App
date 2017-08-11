@@ -6,9 +6,9 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endColumn": 118,
-                    "endOffset": 169
+                    "endOffset": 219
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -25,9 +25,9 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 174,
+                    "startOffset": 224,
                     "endColumn": 107,
-                    "endOffset": 277
+                    "endOffset": 327
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -44,9 +44,9 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 282,
+                    "startOffset": 332,
                     "endColumn": 122,
-                    "endOffset": 400
+                    "endOffset": 450
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -63,9 +63,9 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 405,
+                    "startOffset": 455,
                     "endColumn": 108,
-                    "endOffset": 509
+                    "endOffset": 559
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -82,9 +82,9 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 514,
+                    "startOffset": 564,
                     "endColumn": 106,
-                    "endOffset": 616
+                    "endOffset": 666
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -101,9 +101,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 621,
+                    "startOffset": 671,
                     "endColumn": 87,
-                    "endOffset": 704
+                    "endOffset": 754
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -120,9 +120,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 709,
+                    "startOffset": 759,
                     "endColumn": 100,
-                    "endOffset": 805
+                    "endOffset": 855
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -139,9 +139,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 810,
+                    "startOffset": 860,
                     "endColumn": 121,
-                    "endOffset": 927
+                    "endOffset": 977
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -158,9 +158,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 932,
+                    "startOffset": 982,
                     "endColumn": 81,
-                    "endOffset": 1009
+                    "endOffset": 1059
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -177,9 +177,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1014,
+                    "startOffset": 1064,
                     "endColumn": 80,
-                    "endOffset": 1090
+                    "endOffset": 1140
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -196,9 +196,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1095,
+                    "startOffset": 1145,
                     "endColumn": 85,
-                    "endOffset": 1176
+                    "endOffset": 1226
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -215,9 +215,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1181,
+                    "startOffset": 1231,
                     "endColumn": 102,
-                    "endOffset": 1279
+                    "endOffset": 1329
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -234,9 +234,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1284,
+                    "startOffset": 1334,
                     "endColumn": 104,
-                    "endOffset": 1384
+                    "endOffset": 1434
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -253,9 +253,9 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1389,
+                    "startOffset": 1439,
                     "endColumn": 97,
-                    "endOffset": 1482
+                    "endOffset": 1532
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -272,9 +272,9 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1487,
+                    "startOffset": 1537,
                     "endColumn": 104,
-                    "endOffset": 1587
+                    "endOffset": 1637
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -291,9 +291,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1592,
+                    "startOffset": 1642,
                     "endColumn": 110,
-                    "endOffset": 1698
+                    "endOffset": 1748
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -310,9 +310,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1703,
+                    "startOffset": 1753,
                     "endColumn": 104,
-                    "endOffset": 1803
+                    "endOffset": 1853
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -329,9 +329,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1808,
+                    "startOffset": 1858,
                     "endColumn": 119,
-                    "endOffset": 1923
+                    "endOffset": 1973
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -348,9 +348,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1928,
+                    "startOffset": 1978,
                     "endColumn": 96,
-                    "endOffset": 2020
+                    "endOffset": 2070
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -367,9 +367,28 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2025,
+                    "startOffset": 2075,
+                    "endColumn": 199,
+                    "endOffset": 2270
+                },
+                "from": {
+                    "file": "C:\\Users\\arnab\\.android\\build-cache\\531eb2860456e37be5deb72992c0cd8fd9e54040\\output\\res\\values-bs\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 199,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2275,
                     "endColumn": 83,
-                    "endOffset": 2104
+                    "endOffset": 2354
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
@@ -384,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2109,
+                    "startOffset": 2359,
                     "endColumn": 100,
-                    "endOffset": 2205
+                    "endOffset": 2455
                 },
                 "from": {
                     "file": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\values-bs\\values-bs.xml",
