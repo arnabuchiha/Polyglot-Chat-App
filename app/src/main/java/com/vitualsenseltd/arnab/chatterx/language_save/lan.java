@@ -1,7 +1,7 @@
 package com.vitualsenseltd.arnab.chatterx.language_save;
 
-import com.vitualsenseltd.arnab.polyglot.Translation.authPOJO;
-import com.vitualsenseltd.arnab.polyglot.UserDetails;
+import com.vitualsenseltd.arnab.chatterx.Translation.authPOJO;
+import com.vitualsenseltd.arnab.chatterx.UserDetails;
 
 import retrofit2.Call;
 import retrofit2.Callback;
