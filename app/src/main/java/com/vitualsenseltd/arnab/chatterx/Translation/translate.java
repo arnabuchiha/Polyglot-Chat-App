@@ -13,9 +13,7 @@ import retrofit2.http.Headers;
 import retrofit2.http.POST;
 import retrofit2.http.Query;
 
-/**
- * Created by arnab on 8/2/2017.
- */
+
 
 public interface translate {
     @GET("v2")
