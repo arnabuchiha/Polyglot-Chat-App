@@ -1,107 +1,43 @@
 [
     {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5eb2e9f81e262a6a33df67dd4a0708dded6fc443\\output\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_tint_default.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5eb2e9f81e262a6a33df67dd4a0708dded6fc443\\output\\res\\color\\design_error.xml"
-    },
-    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\6dd1de9544668132eb6f61ce8b2c4d495990555e\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\arnab\\.android\\build-cache\\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\\output\\res\\color\\design_error.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\arnab\\.android\\build-cache\\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\\output\\res\\color\\design_error.xml"
-    },
-    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\6dd1de9544668132eb6f61ce8b2c4d495990555e\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
@@ -112,24 +48,12 @@
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
@@ -156,24 +80,12 @@
         "source": "C:\\Users\\arnab\\.android\\build-cache\\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",

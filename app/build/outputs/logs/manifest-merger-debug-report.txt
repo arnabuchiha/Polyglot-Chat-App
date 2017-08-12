@@ -23,6 +23,7 @@ MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\arnab\.android\bu
 application
 ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:7:5-43:19
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\arnab\.android\build-cache\2bdee85c867d8554cf39a0017a7831b4a9edf67b\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arnab\.android\build-cache\2e3910c8498b74a50dc7b5c6ac256793c08e99ed\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\7b3eae801c55a1bb8e8608f93d0898664487f611\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\10f577e8673c131d47198e79130c535c0a1381e8\output\AndroidManifest.xml:26:5-20
@@ -33,9 +34,6 @@ MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\arnab\.android\b
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\arnab\.android\build-cache\052e070c9c1d451c4e71de9ab3fd0bc1d889541f\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\arnab\.android\build-cache\0df847ecb21e1f4b58cdd4a27690a6177f2732a0\output\AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\arnab\.android\build-cache\968316259bae53b60dd71dabc68b8cb4734894a6\output\AndroidManifest.xml:28:5-50:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arnab\.android\build-cache\2e3910c8498b74a50dc7b5c6ac256793c08e99ed\output\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\arnab\.android\build-cache\fcce645a7e2c93f7a1718f24e2455e5290e17009\output\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\arnab\.android\build-cache\6dd1de9544668132eb6f61ce8b2c4d495990555e\output\AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\arnab\.android\build-cache\aa14908b5e5242be437bcb0d33610ea24876983d\output\AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\arnab\.android\build-cache\d854b2be356364a567a7584b14aa9f54add99dee\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\arnab\.android\build-cache\531eb2860456e37be5deb72992c0cd8fd9e54040\output\AndroidManifest.xml:19:5-21:19
@@ -123,6 +121,7 @@ uses-sdk
 INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\arnab\.android\build-cache\2bdee85c867d8554cf39a0017a7831b4a9edf67b\output\AndroidManifest.xml:7:5-43
 MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\arnab\.android\build-cache\a251691391ff6609bbfe0d356c103a5cd44aec52\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arnab\.android\build-cache\2e3910c8498b74a50dc7b5c6ac256793c08e99ed\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\7b3eae801c55a1bb8e8608f93d0898664487f611\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\10f577e8673c131d47198e79130c535c0a1381e8\output\AndroidManifest.xml:20:5-44
@@ -136,9 +135,6 @@ MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\arnab\.android\b
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\arnab\.android\build-cache\052e070c9c1d451c4e71de9ab3fd0bc1d889541f\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\arnab\.android\build-cache\0df847ecb21e1f4b58cdd4a27690a6177f2732a0\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\arnab\.android\build-cache\968316259bae53b60dd71dabc68b8cb4734894a6\output\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arnab\.android\build-cache\2e3910c8498b74a50dc7b5c6ac256793c08e99ed\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\arnab\.android\build-cache\fcce645a7e2c93f7a1718f24e2455e5290e17009\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\arnab\.android\build-cache\6dd1de9544668132eb6f61ce8b2c4d495990555e\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\arnab\.android\build-cache\aa14908b5e5242be437bcb0d33610ea24876983d\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\arnab\.android\build-cache\d854b2be356364a567a7584b14aa9f54add99dee\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\arnab\.android\build-cache\531eb2860456e37be5deb72992c0cd8fd9e54040\output\AndroidManifest.xml:17:5-42
@@ -274,14 +270,6 @@ action#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\arnab\.android\build-cache\968316259bae53b60dd71dabc68b8cb4734894a6\output\AndroidManifest.xml:46:17-79
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\arnab\.android\build-cache\968316259bae53b60dd71dabc68b8cb4734894a6\output\AndroidManifest.xml:46:25-77
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\arnab\.android\build-cache\6dd1de9544668132eb6f61ce8b2c4d495990555e\output\AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\arnab\.android\build-cache\6dd1de9544668132eb6f61ce8b2c4d495990555e\output\AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\arnab\.android\build-cache\6dd1de9544668132eb6f61ce8b2c4d495990555e\output\AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\arnab\.android\build-cache\6dd1de9544668132eb6f61ce8b2c4d495990555e\output\AndroidManifest.xml:19:19-85
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\arnab\.android\build-cache\aa14908b5e5242be437bcb0d33610ea24876983d\output\AndroidManifest.xml:6:9-194
 	android:authorities

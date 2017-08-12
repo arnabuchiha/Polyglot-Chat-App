@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -24,7 +25,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Iterator;
+
+import static com.vitualsenseltd.arnab.chatterx.UserProfile.activity;
 
 public class Users extends AppCompatActivity {
     ListView usersList;
@@ -32,11 +36,13 @@ public class Users extends AppCompatActivity {
     ArrayList<String> al = new ArrayList<>();
     int totalUsers = 0;
     ProgressDialog pd;
+    public static long startTime,endTime,totalTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_users);
+        startTime = Calendar.getInstance().getTimeInMillis();
 
         usersList = (ListView)findViewById(R.id.usersList);
         noUsersText = (TextView)findViewById(R.id.noUsersText);
@@ -67,7 +73,7 @@ public class Users extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 UserDetails.chatWith = al.get(position);
 
-                startActivity(new Intent(Users.this, Chat.class));
+                startActivity(new Intent(Users.this, UserProfile.class));
             }
         });
     }
@@ -130,5 +136,4 @@ public class Users extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
 }

@@ -5,7 +5,7 @@ public class UserDetails {
     static String password = "";
     static String language= "";
     static String chatWith = "";
-
+    public static long score=0;
     public String getLanguage(){
         return language;
     }

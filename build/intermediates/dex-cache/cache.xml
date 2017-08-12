@@ -3,12 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\arnab\.android\build-cache\4b8d46fc58e16df9c6f3adfc56bb0b195f10071a\output\jars\classes.jar"
+        jar="C:\Users\arnab\.android\build-cache\6dd1de9544668132eb6f61ce8b2c4d495990555e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
-        <dex dex="E:\My android projects\CHATTERx\app\build\intermediates\pre-dexed\debug\classes_646ba150a60e81791ca03f38ecdf4ff4d91792bc.jar" />
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="E:\My android projects\CHATTERx\app\build\intermediates\pre-dexed\debug\classes_5e3bedda14fab3a7436a15e6827b9d81c9fe8bad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\arnab\.android\build-cache\fcce645a7e2c93f7a1718f24e2455e5290e17009\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="E:\My android projects\CHATTERx\app\build\intermediates\pre-dexed\debug\classes_b5d5ad1a7309f91cf866a518e030885492c07b6f.jar" />
     </item>
 
 </items>

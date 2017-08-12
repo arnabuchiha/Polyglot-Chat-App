@@ -66,6 +66,7 @@ public class Chat extends AppCompatActivity {
     ImageView sendButton;
     EditText messageArea;
     ScrollView scrollView;
+    String activity;
     String messageText1;
     Map<String, String> map;
     Firebase reference1, reference2,reference3;
@@ -87,7 +88,7 @@ private FirebaseDatabase mFirebaseDatabase;
 
         reference1 = new Firebase("https://chatterx-7db2d.firebaseio.com/messages/" + UserDetails.username + "_" + UserDetails.chatWith);
         reference2 = new Firebase("https://chatterx-7db2d.firebaseio.com/messages/" + UserDetails.chatWith + "_" + UserDetails.username);
-        reference3= new Firebase("https://chatterx-7db2d.firebaseio.com/users/"+UserDetails.username);
+        reference3= new Firebase("https://chatterx-7db2d.firebaseio.com/users/");
         /*final lan ln=lan.retrofit.create(lan.class);
         Call<lang> readlang=ln.readlang("language");
         readlang.enqueue(new Callback<lang>() {
@@ -141,6 +142,10 @@ private FirebaseDatabase mFirebaseDatabase;
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                UserDetails.score++;
+                activity= String.valueOf(UserDetails.score);
+                reference3.child(UserDetails.username).child("activityScore").setValue(activity);
+
                 messageText1 = messageArea.getText().toString();
                 //Log.i("Translated:",messageText1);
                 if(!messageText1.equals("")){
@@ -150,8 +155,10 @@ private FirebaseDatabase mFirebaseDatabase;
                     if(key.equals("en")){
                         map.put("message", messageText1);
                         map.put("user", UserDetails.username);
+
                         reference1.push().setValue(map);
                         reference2.push().setValue(map);
+
                     }
                     else {
                         final translate tn = translate.retrofit.create(translate.class);
@@ -172,8 +179,10 @@ private FirebaseDatabase mFirebaseDatabase;
                                 } while (los.hasNext());
                                 map.put("message", txt1);
                                 map.put("user", UserDetails.username);
+
                                 reference1.push().setValue(map);
                                 reference2.push().setValue(map);
+
 
                             }
 
