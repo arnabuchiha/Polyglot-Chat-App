@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Click here to login"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/background_dark"
         android:textSize="20dp" />
 
 </LinearLayout>

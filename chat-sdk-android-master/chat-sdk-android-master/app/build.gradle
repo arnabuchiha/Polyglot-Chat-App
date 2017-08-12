@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+def versionMajor = 0
+def versionMinor = 9
+def versionPatch = 6
+def versionBuild = 1 // bump for dogfood builds, public betas, etc.
+
+
+android {
+    compileSdkVersion Integer.parseInt(project.ANDROID_COMPILE_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    dexOptions {
+        preDexLibraries = false
+    }
+
+
+    defaultConfig {
+        applicationId "com.braunster.androidchatsdk.app"
+
+        multiDexEnabled = false
+        minSdkVersion Integer.parseInt(project.MIN_SDK)
+        targetSdkVersion  Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+
+        versionCode versionMajor * 1000000 + versionMinor * 10000 + versionPatch * 100 + versionBuild
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+    }
+
+    signingConfigs {
+
+        release {
+            storeFile file('/media/braunster/Code/Android/braunserkey')
+            keyAlias 'braunsteralias'
+            keyPassword 'Itzikbraun1991'
+            storePassword 'Itzikbraun1991'
+        }
+    }
+
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+            debuggable false
+            jniDebuggable false
+            zipAlignEnabled true
+        }
+        debug {
+            debuggable true
+            jniDebuggable true
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':firebase_plugin')
+    compile 'com.android.support:multidex:1.0.0'
+}
+
+
+task copyDependencies(type: Copy) {
+    from configurations.compile
+    into 'dependencies'
+}
+
