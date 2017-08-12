@@ -54,7 +54,7 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\arnab\.a
 	android:allowBackup
 		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:11:9-44
 	android:largeHeap
 		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:8:9-33
 	android:theme

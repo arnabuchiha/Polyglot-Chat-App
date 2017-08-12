@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 12 16:29:55 IST 2017
+#Sat Aug 12 16:58:15 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xxhdpi-v4\\ic_launcher_round.png
 14.set=ANDROID_RESOURCE
@@ -243,7 +243,7 @@
 258.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png
 104.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png
 310.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\splash_screen.png
-233.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png
+233.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\logo_final.png
 156.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png
 240.set=ANDROID_RESOURCE
 285.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\design_password_eye.xml
@@ -327,7 +327,7 @@
 259.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_primary_text_disable_only_material_light.xml
 105.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\design_bottom_navigation_item_background.xml
 311.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_activity_chooser_view.xml
-234.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\logo_final.png
+234.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png
 157.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xhdpi-v4\\ic_launcher.png
 250.set=ANDROID_RESOURCE
 286.file=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_ratingbar_indicator_material.xml
