@@ -2,9 +2,12 @@ package com.vitualsenseltd.arnab.chatterx;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Handler;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,6 +28,15 @@ import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
+import com.google.api.client.extensions.android.http.AndroidHttp;
+import com.google.api.client.extensions.android.json.AndroidJsonFactory;
+import com.google.api.services.language.v1.CloudNaturalLanguage;
+import com.google.api.services.language.v1.CloudNaturalLanguageRequestInitializer;
+import com.google.api.services.language.v1.model.AnnotateTextRequest;
+import com.google.api.services.language.v1.model.AnnotateTextResponse;
+import com.google.api.services.language.v1.model.Document;
+import com.google.api.services.language.v1.model.Entity;
+import com.google.api.services.language.v1.model.Features;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.vitualsenseltd.arnab.chatterx.Translation.Data;
@@ -35,6 +47,7 @@ import com.vitualsenseltd.arnab.chatterx.Translation.translate;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.ListIterator;
@@ -49,13 +62,14 @@ import static com.vitualsenseltd.arnab.chatterx.language.key;
 
 public class Chat extends AppCompatActivity {
     LinearLayout layout;
+    float negScore;
     ImageView sendButton;
     EditText messageArea;
     ScrollView scrollView;
     String messageText1;
     Map<String, String> map;
     Firebase reference1, reference2,reference3;
-    language l;
+    String transcript="";
 private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference myRef;
     @Override
@@ -133,7 +147,7 @@ private FirebaseDatabase mFirebaseDatabase;
 
                     map = new HashMap<String, String>();
 
-                    if(key=="en"){
+                    if(key.equals("en")){
                         map.put("message", messageText1);
                         map.put("user", UserDetails.username);
                         reference1.push().setValue(map);
@@ -172,7 +186,7 @@ private FirebaseDatabase mFirebaseDatabase;
                     }
 
                 }
-                //transl("AIzaSyCHq9a-pe-iVnPXhJ_PBw5BXqKM2l8tQ84",messageText1,"en","de");
+                messageArea.setText(null);
 
 
             }
@@ -185,7 +199,7 @@ private FirebaseDatabase mFirebaseDatabase;
 
                 final String message = map.get("message").toString();
                 final String userName = map.get("user").toString();
-                if(key=="en"){
+                if(key.equals("en")){
                     if(userName.equals(UserDetails.username)){
                         addMessageBox("You:-\n" + message, 1);
                     }
@@ -300,6 +314,138 @@ private FirebaseDatabase mFirebaseDatabase;
             case R.id.reportuser: {
 
               Toast.makeText(Chat.this,"The Person has been reported",Toast.LENGTH_LONG).show();
+                final CloudNaturalLanguage naturalLanguageService =
+                        new CloudNaturalLanguage.Builder(
+                                AndroidHttp.newCompatibleTransport(),
+                                new AndroidJsonFactory(),
+                                null
+                        ).setCloudNaturalLanguageRequestInitializer(
+                                new CloudNaturalLanguageRequestInitializer("AIzaSyB_nmZJYnq3HaGOD0O8YUip9diuFyCcRBs")
+                        ).build();
+
+                reference1 = new Firebase("https://chatterx-7db2d.firebaseio.com/messages/" + UserDetails.username + "_" + UserDetails.chatWith);
+                reference2 = new Firebase("https://chatterx-7db2d.firebaseio.com/messages/" + UserDetails.chatWith + "_" + UserDetails.username);
+                reference1.addChildEventListener(new ChildEventListener() {
+                    @Override
+                    public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                        final Map map = dataSnapshot.getValue(Map.class);
+
+                        final String message = map.get("message").toString();
+                        final String userName = map.get("user").toString();
+                        if (userName.equals(UserDetails.chatWith)) {
+                            transcript=message;
+                            Document document = new Document();
+                            document.setType("PLAIN_TEXT");
+                            document.setLanguage("en-US");
+                            document.setContent(transcript);
+                            Features features = new Features();
+                            features.setExtractEntities(true);
+                            features.setExtractDocumentSentiment(true);
+                            final AnnotateTextRequest request = new AnnotateTextRequest();
+                            request.setDocument(document);
+                            request.setFeatures(features);
+
+                            AsyncTask.execute(new Runnable() {
+                                @Override
+                                public void run() {
+                                    AnnotateTextResponse response =
+                                            null;
+                                    try {
+                                        response = naturalLanguageService.documents()
+                                                .annotateText(request).execute();
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
+
+                                    //final List<Entity> entityList = response.getEntities();
+                                    final float sentiment = response.getDocumentSentiment().getScore();
+                                    if(sentiment<=-0.0){
+                                        {
+
+                                            String url = "https://chatterx-7db2d.firebaseio.com/users.json";
+
+                                            StringRequest request = new StringRequest(Request.Method.GET, url, new com.android.volley.Response.Listener<String>() {
+                                                @Override
+                                                public void onResponse(String s) {
+
+                                                    try {
+                                                        JSONObject obj = new JSONObject(s);
+                                                        String neg_points;
+                                                        neg_points=obj.getJSONObject(UserDetails.chatWith).getString("neg");
+                                                        Log.d("negative",neg_points);
+                                                        negScore=Float.valueOf(neg_points);
+                                                        negScore=negScore+(sentiment*10);
+                                                        neg_points=Float.toString(negScore);
+                                                        Firebase reference = new Firebase("https://chatterx-7db2d.firebaseio.com/users");
+                                                        reference.child(UserDetails.chatWith).child("neg").setValue(neg_points);
+                                                        Toast.makeText(Chat.this,neg_points,Toast.LENGTH_LONG);
+
+                                                    }
+                                                    catch (JSONException e) {
+                                                        e.printStackTrace();
+                                                    }
+
+                                                }
+                                            }, new com.android.volley.Response.ErrorListener() {
+                                                @Override
+                                                public void onErrorResponse(VolleyError volleyError) {
+                                                    System.out.println("" + volleyError);
+
+                                                }
+                                            });
+
+                                            RequestQueue rQueue = Volley.newRequestQueue(Chat.this);
+                                            rQueue.add(request);
+                                        }
+                                    }
+
+                       /* String url = "https://chatterx-7db2d.firebaseio.com/users.json";
+
+                        StringRequest request = new StringRequest(Request.Method.GET, url, new com.android.volley.Response.Listener<String>(){
+                            @Override
+                            public void onResponse(String s) {
+                                Firebase reference = new Firebase("https://chatterx-7db2d.firebaseio.com/users");
+                                String neg_points=Float.toString(negScore);
+                                reference.child(UserDetails.chatWith).child("neg").setValue(neg_points);
+                            }
+
+                        },new com.android.volley.Response.ErrorListener(){
+                            @Override
+                            public void onErrorResponse(VolleyError volleyError) {
+                                System.out.println("" + volleyError );
+
+                            }
+                        });
+
+                        RequestQueue rQueue = Volley.newRequestQueue(Chat.this);
+                        rQueue.add(request);*/
+                                }
+                            });
+                        }
+                    }
+
+                    @Override
+                    public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+                    }
+
+                    @Override
+                    public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+                    }
+
+                    @Override
+                    public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+                    }
+
+                    @Override
+                    public void onCancelled(FirebaseError firebaseError) {
+
+                    }
+                });
+
+
 
             }
 

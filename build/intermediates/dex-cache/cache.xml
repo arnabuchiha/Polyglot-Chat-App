@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\arnab\.android\build-cache\4b8d46fc58e16df9c6f3adfc56bb0b195f10071a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="E:\My android projects\CHATTERx\app\build\intermediates\pre-dexed\debug\classes_646ba150a60e81791ca03f38ecdf4ff4d91792bc.jar" />
+    </item>
+
+</items>
