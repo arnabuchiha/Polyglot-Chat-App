@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5eb2e9f81e262a6a33df67dd4a0708dded6fc443\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
