@@ -3262,6 +3262,7 @@ containing a value of this type.
         public static final int radio=0x7f0e0065;
         public static final int register=0x7f0e0081;
         public static final int registerButton=0x7f0e0083;
+        public static final int reportuser=0x7f0e00af;
         public static final int right=0x7f0e0036;
         public static final int right_icon=0x7f0e00a3;
         public static final int right_side=0x7f0e009f;
@@ -3416,6 +3417,7 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int menu_main=0x7f0f0000;
+        public static final int report_main=0x7f0f0001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

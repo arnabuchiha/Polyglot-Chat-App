@@ -1,4 +1,4 @@
-#Sat Aug 12 05:21:36 IST 2017
-base.0=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Sat Aug 12 07:01:11 IST 2017
+base.0=F\:\\Trojan\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=E\:\\My android projects\\CHATTERx\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=F\:\\Trojan\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

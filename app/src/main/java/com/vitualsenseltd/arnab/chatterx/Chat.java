@@ -1,9 +1,12 @@
 package com.vitualsenseltd.arnab.chatterx;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -281,6 +284,28 @@ private FirebaseDatabase mFirebaseDatabase;
                 });
             }
         }).start();
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.report_main, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+
+        switch (id) {
+            case R.id.reportuser: {
+
+              Toast.makeText(Chat.this,"The Person has been reported",Toast.LENGTH_LONG).show();
+
+            }
+
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 }
