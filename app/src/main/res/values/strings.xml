@@ -108,4 +108,5 @@
         <item>Zulu</item>
 
     </string-array>
+    <string name="title_activity_user_profile">UserProfile</string>
 </resources>

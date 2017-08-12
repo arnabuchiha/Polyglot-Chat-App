@@ -33,8 +33,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.vitualsenseltd.arnab.chatterx.Login"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.vitualsenseltd.arnab.chatterx.Register" />
         <activity android:name="com.vitualsenseltd.arnab.chatterx.Users" />
         <activity android:name="com.vitualsenseltd.arnab.chatterx.Chat" />
@@ -51,6 +50,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vitualsenseltd.arnab.chatterx.UserProfile"
+            android:label="@string/title_activity_user_profile"
+            android:parentActivityName="com.vitualsenseltd.arnab.chatterx.Users"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vitualsenseltd.arnab.chatterx.Users" />
         </activity>
 
         <receiver
@@ -101,6 +109,11 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"

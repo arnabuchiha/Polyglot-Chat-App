@@ -72,16 +72,16 @@
         "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_area.xml",
-        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\message_area.xml"
+        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_area.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\message_area.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -134,6 +134,10 @@
     {
         "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Rajnish\\.android\\build-cache\\5737eee334a703e56e4202f284c59681962e574d\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_user_profile.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\content_user_profile.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
@@ -414,6 +418,10 @@
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
         "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_profile.xml",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
     },
     {
         "merged": "F:\\Trojan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
