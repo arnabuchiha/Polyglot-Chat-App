@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="#ffffff"
+    android:background="@drawable/chatscreen"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context="com.vitualsenseltd.arnab.chatterx.Chat">
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_weight="20"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView">
+        android:layout_weight="20">
 
         <LinearLayout
+            android:id="@+id/layout1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:id="@+id/layout1"
-            android:transcriptMode="alwaysScroll"
-            android:stackFromBottom="true">
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll">
 
         </LinearLayout>
     </ScrollView>
@@ -32,6 +32,6 @@
         layout="@layout/message_area"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="bottom"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:gravity="bottom" />
 </LinearLayout>

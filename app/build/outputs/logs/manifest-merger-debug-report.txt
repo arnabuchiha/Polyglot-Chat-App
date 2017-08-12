@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml
@@ -21,7 +21,7 @@ MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\arnab\.android\bu
 	android:name
 		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:7:5-43:19
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:7:5-45:19
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\arnab\.android\build-cache\2bdee85c867d8554cf39a0017a7831b4a9edf67b\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\arnab\.android\build-cache\2e3910c8498b74a50dc7b5c6ac256793c08e99ed\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\f5e0df5d5eb5cf876351e749c6123fe4ca4bf931\output\AndroidManifest.xml:29:5-20
@@ -44,79 +44,83 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\arnab\.
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\fbd9d14ecc8293770addb2017540330d82724269\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\arnab\.android\build-cache\3cffeb20f9d03f7f50ae056bb2165f207997b94d\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:14:9-35
+	android:hardwareAccelerated
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:9:9-44
 	android:roundIcon
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:13:9-54
 	android:allowBackup
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:11:9-43
+	android:largeHeap
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:8:9-33
 	android:theme
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.vitualsenseltd.arnab.chatterx.Login
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:14:9-16:68
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:16:9-18:68
 	android:theme
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:16:13-56
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:15:13-34
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:17:13-34
 activity#com.vitualsenseltd.arnab.chatterx.Register
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:17:9-46
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:19:9-46
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:17:19-43
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:19:19-43
 activity#com.vitualsenseltd.arnab.chatterx.Users
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:18:9-43
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:20:9-43
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:18:19-40
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:20:19-40
 activity#com.vitualsenseltd.arnab.chatterx.Chat
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:19:9-42
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:21:9-42
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:19:19-39
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:21:19-39
 activity#com.vitualsenseltd.arnab.chatterx.MainActivity
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:20:9-23:59
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:22:9-25:59
 	android:label
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:24:13-45
 	android:theme
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:23:13-56
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:25:13-56
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:23:13-41
 activity#com.vitualsenseltd.arnab.chatterx.language
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:24:9-46
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:26:9-46
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:24:19-43
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:26:19-43
 activity#com.vitualsenseltd.arnab.chatterx.SplashScreen
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:25:9-33:20
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:theme
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:27:13-56
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:28:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:33:27-74
 activity#com.vitualsenseltd.arnab.chatterx.UserProfile
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:34:9-42:20
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:36:9-44:20
 	android:label
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:36:13-64
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:38:13-64
 	android:parentActivityName
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:37:13-48
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:39:13-48
 	android:theme
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:38:13-56
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:35:13-40
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:37:13-40
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:39:13-41:75
+ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:41:13-43:75
 	android:value
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:41:17-72
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:43:17-72
 	android:name
-		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:40:17-63
+		ADDED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml:42:17-63
 uses-sdk
 INJECTED from E:\My android projects\CHATTERx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\arnab\.android\build-cache\2bdee85c867d8554cf39a0017a7831b4a9edf67b\output\AndroidManifest.xml:7:5-43

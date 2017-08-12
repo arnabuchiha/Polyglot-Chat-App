@@ -7,15 +7,14 @@
     android:orientation="horizontal">
 
     <EditText
+        android:id="@+id/messageArea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textColorHint="#CFD8DC"
-        android:textColor="#CFD8DC"
         android:hint="Write a message..."
-        android:id="@+id/messageArea"
         android:maxHeight="80dp"
-        />
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="#CFD8DC" />
 
     <ImageView
         android:id="@+id/sendButton"

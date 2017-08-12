@@ -20,14 +20,19 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_user_profile" />
-
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+        android:id="@+id/startchatButton"
+        android:layout_width="83dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_vertical|left"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="bottom|right"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_user_profile" />
 
 </android.support.design.widget.CoordinatorLayout>

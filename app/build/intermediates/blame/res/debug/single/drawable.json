@@ -48,12 +48,12 @@
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
@@ -148,6 +148,10 @@
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\asdfg.png",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\drawable\\asdfg.png"
+    },
+    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -172,12 +176,20 @@
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profile.png",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\arnab\\.android\\build-cache\\7b3eae801c55a1bb8e8608f93d0898664487f611\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profile3.png",
+        "source": "E:\\My android projects\\CHATTERx\\app\\src\\main\\res\\drawable\\profile3.png"
     },
     {
         "merged": "E:\\My android projects\\CHATTERx\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",

@@ -65,23 +65,16 @@ public class UserProfile extends AppCompatActivity {
         rQueue.add(request);
 
 
-        Button button=(Button)findViewById(R.id.startchatButton);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.startchatButton);
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(UserProfile.this,Chat.class);
                 startActivity(intent);
-            }
-        });
-
-
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

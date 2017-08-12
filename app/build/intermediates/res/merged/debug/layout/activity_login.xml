@@ -41,8 +41,8 @@
             android:hint="Username"
             android:inputType="text"
             android:maxLines="1"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff" />
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark" />
 
         <EditText
             android:id="@+id/password"
@@ -55,8 +55,8 @@
             android:hint="Password"
             android:inputType="textPassword"
             android:maxLines="1"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff" />
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/black" />
 
         <Button
             android:id="@+id/loginButton"
@@ -66,6 +66,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginBottom="88dp"
+            android:background="@android:color/holo_blue_light"
             android:text="Login" />
 
         <TextView
