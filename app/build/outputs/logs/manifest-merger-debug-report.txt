@@ -29,6 +29,7 @@ MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Rajnish\.a
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\9ef5a34f9fadc5f1f388beb40fa8c945af8632b2\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\c3f571451203d0799872051c57404b1fe7cc9e56\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\c1e121bc854a306777c07a3b76da8ab218c89375\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\21a10011dacd642ae767728e0f15c69def7c8b9c\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Rajnish\.android\build-cache\2c78d4e762f986a8ea2e7aaff30441634ea93dc1\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Rajnish\.android\build-cache\a76dd268b78e6210e2194779fac6d992760724b3\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Rajnish\.android\build-cache\63ee3eab87f8cc91b921ffd8f6df4f364e4910ce\output\AndroidManifest.xml:24:5-28:19
@@ -110,6 +111,7 @@ MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\User
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\c3f571451203d0799872051c57404b1fe7cc9e56\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\70af4a6f8c530a33eb3248cef37260c1d48f139b\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\c1e121bc854a306777c07a3b76da8ab218c89375\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\21a10011dacd642ae767728e0f15c69def7c8b9c\output\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\Rajnish\.android\build-cache\b02a5e5c43af702c58a98bb72d3d90968f9ee82b\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\Rajnish\.android\build-cache\719de1649ce2931fc831f3387a50c6f77e97b021\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\Rajnish\.android\build-cache\2c78d4e762f986a8ea2e7aaff30441634ea93dc1\output\AndroidManifest.xml:4:5-42
@@ -140,6 +142,7 @@ MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\User
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\c3f571451203d0799872051c57404b1fe7cc9e56\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\70af4a6f8c530a33eb3248cef37260c1d48f139b\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\c1e121bc854a306777c07a3b76da8ab218c89375\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\21a10011dacd642ae767728e0f15c69def7c8b9c\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\e64f50db92dc7c1663d5a2eee7198e2e4fc93d07\output\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\a82e5815c7bcf6411430ee1ec2799f2f15e441af\output\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Rajnish\.android\build-cache\d4158237f8193f8135a44ea1517b0a1eb672c902\output\AndroidManifest.xml:25:5-27:41

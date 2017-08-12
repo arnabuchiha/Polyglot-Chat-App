@@ -8,7 +8,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.vitualsenseltd.arnab.chatterx.Users"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/android_card_view"
+        android:elevation="5dp">
+
+
+
+
 
 
     <TextView
@@ -18,9 +28,13 @@
         android:id="@+id/noUsersText"
         android:visibility="gone"/>
 
+
+
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/usersList" />
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>
